@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.ipynb_checkpoints/
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints
+
+# Data and Models
+data/
+*.zip
+models/
+*.pth
+*.pt
+
+# Logs and results
+*.log
+reports/*.json
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+pip-log.txt
+
+# OS
+.DS_Store
+
+# VSCode settings
+.vscode/

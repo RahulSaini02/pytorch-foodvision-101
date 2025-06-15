@@ -1,0 +1,15 @@
+gradio
+ipykernel
+matplotlib
+numpy
+pandas
+requests
+scikit-learn
+seaborn
+tensorboard
+torch
+torchinfo
+torchmetrics
+torchvision
+tqdm
+typing
