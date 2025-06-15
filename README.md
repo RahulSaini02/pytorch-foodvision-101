@@ -91,16 +91,3 @@ python src/scripts/train_vit.py
 ```bash
 python app.py
 ```
-
----
-title: Foodvision Mini
-emoji: ⚡
-colorFrom: green
-colorTo: pink
-sdk: gradio
-sdk_version: 5.34.0
-app_file: app.py
-pinned: false
-license: mit
-short_description: PyTorch-based image classification project - EfficientNetB2
----
