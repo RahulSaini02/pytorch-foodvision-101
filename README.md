@@ -72,8 +72,8 @@ FOODVISION-101/
 ## 📦 Installation
 
 ```bash
-git clone git@github.com:RahulSaini02/pytorch-foodvision-mini.git
-cd foodvision-mini
+git clone git@github.com:RahulSaini02/pytorch-foodvision-101.git
+cd foodvision-101
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
