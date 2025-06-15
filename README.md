@@ -1,4 +1,4 @@
-# Food Vision Mini
+# Food Vision 101
 
 A PyTorch-based image classification project using **EfficientNetB2** and **Vision Transformer (ViT)** to classify food images into `pizza`, `steak`, or `sushi`. The final model is deployed using **Gradio** and hosted on **Hugging Face Spaces**.
 
@@ -7,14 +7,15 @@ A PyTorch-based image classification project using **EfficientNetB2** and **Visi
 ## 🚀 Project Structure
 
 ```
-FOODVISION-MINI/
+FOODVISION-101/
 │
 ├── data/                           # Raw and extracted datasets
 │   ├── pizza_steak_sushi/          # Preprocessed food image dataset
-│   └── pizza_steak_sushi.zip       # Original ZIP archive
+|   └── food-101.zip                # Original ZIP archive
 │
 ├── models/                         # Trained PyTorch model weights (.pth)
 │   ├── effnetb2.pth
+│   ├── effnetb2_food101.pth
 │   ├── tinyvgg.pth
 │   └── vit.pth
 │
@@ -24,6 +25,7 @@ FOODVISION-MINI/
 │   ├── 1.0-rs-exploratory-data-analysis.ipynb
 │   ├── 2.0-rs-train-eval-models.ipynb
 │   └── 3.0-rs-interface-test.ipynb
+│   └── 4.0-rs-foodvision-101.ipynb
 │
 ├── reports/                        # Visualizations and evaluation reports
 │   └── figures/
