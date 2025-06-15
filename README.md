@@ -70,7 +70,7 @@ FOODVISION-MINI/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/foodvision-mini.git
+git clone git@github.com:RahulSaini02/pytorch-foodvision-mini.git
 cd foodvision-mini
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
